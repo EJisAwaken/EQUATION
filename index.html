@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Equation du second dégrée </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="titre">Calcul d'une equation du second dégree</h1>
+        <p id="formule">Cette equation est de la forme : <br> aX<sup>2</sup> + bX + c = 0</p>
+    </header>
+
+    <main>
+        <form>
+            <label for="a">a = </label>
+            <input type="number" name="a" id="a">
+            <label for="b">b = </label>
+            <input type="number" name="b" id="b">
+            <label for="c">c = </label>
+            <input type="number" name="c" id="c">
+        </form>
+
+        <div id="demarche">
+            <div id="deltaa">
+                <p id="delta"></p>
+
+            </div>
+
+        </div>
+
+        <div>
+            <button id="btn1">
+            Montre moi la solution
+        </button></div>
+
+        <div class="solution">
+            <h2>Solution : X' = <span id="valeur-x1">
+            </span> et X'' = <span id="valeur-x2"></span></h2>
+        </div>
+
+        <div>
+            <h1 id="EJ">
+                By ESOALAHY JOSEFA
+            </h1>
+        </div>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>

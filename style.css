@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Esoa;
+        src: url("./BEYNO.ttf");
+}
+
+html{
+    background-image: url("bgMaths.jpg");
+}
+
+#titre, #formule, form, .solution{
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+}
+
+#btn1{
+    margin: 2% 39%;
+    padding: 3%;
+    font-size: 2vw;
+}
+
+#deltaa {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    height: 100px;
+}
+
+#a, #b, #c{
+    font-size: 3vw;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+#EJ{
+    display: none;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Esoa, "Calibri Light";
+    box-shadow: #f1f1f1;
+    color: #f1f1f1;
+    font-size: 5vw;
+}
